@@ -8,6 +8,8 @@ export default defineConfig({
 		react(),
 		VitePWA({
 			manifest: {
+				name: "Lorf Tracker",
+				short_name: "LT",
 				icons: [
 					{
 						src: "/android-chrome-512x512.png",
