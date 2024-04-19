@@ -1,9 +1,8 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-
 import useWakeLock from "react-use-wake-lock";
+import PlayMenu from "./region/PlayMenu/PlayMenu";
 import PlayerZone from "./region/PlayerZone/PlayerZone";
-import MenuBtn from "./region/MenuBtn/MenuBtn";
 
 function PlayView() {
 	const { request, release } = useWakeLock();
@@ -19,7 +18,7 @@ function PlayView() {
 
 	return (
 		<div id="play-view">
-			<MenuBtn />
+			<PlayMenu />
 			<PlayerZone player="player-two" />
 			<PlayerZone player="" />
 		</div>
