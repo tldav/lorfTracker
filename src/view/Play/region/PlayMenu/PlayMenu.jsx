@@ -1,4 +1,5 @@
-import { IoMdHome, IoMdRefresh } from "react-icons/io";
+import HomeBtn from "./HomeBtn";
+import RestartBtn from "./RestartBtn";
 
 function PlayMenu() {
 	return (
@@ -16,12 +17,8 @@ function PlayMenu() {
 				zIndex: "2",
 			}}
 		>
-			<button style={{ marginRight: "2.5px", padding: "4px 14px" }}>
-				<IoMdHome size={28} />
-			</button>
-			<button style={{ marginLeft: "2.5px", padding: "4px 14px" }}>
-				<IoMdRefresh size={28} />
-			</button>
+			<HomeBtn />
+			<RestartBtn />
 		</div>
 	);
 }
