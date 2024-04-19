@@ -46,14 +46,14 @@ function PlayerZone({ player }) {
 					disabled={isDecBtnDisabled()}
 				>
 					{" "}
-					<FaChevronDown />{" "}
+					<FaChevronDown size={24} />{" "}
 				</button>
 				<p className="player-lorf">
 					<strong>{lorf}</strong>
 				</p>
 				<button className="lorf-btn inc-lorf-btn" onClick={increaseLorf()}>
 					{" "}
-					<FaChevronUp />{" "}
+					<FaChevronUp size={24} />{" "}
 				</button>
 			</div>
 			<div className="five-flex">

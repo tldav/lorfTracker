@@ -32,7 +32,7 @@ function LorfSetter({ lorf, setLorf }) {
 				onClick={increaseDigit("d1")}
 				disabled={isIncBtnDisabled("d1")}
 			>
-				<FaChevronUp />
+				<FaChevronUp size={18} />
 			</button>
 
 			<button
@@ -41,7 +41,7 @@ function LorfSetter({ lorf, setLorf }) {
 				disabled={isIncBtnDisabled("d2")}
 			>
 				{" "}
-				<FaChevronUp />
+				<FaChevronUp size={18} />
 			</button>
 
 			<p id="lorf-setter-left-digit">
@@ -57,7 +57,7 @@ function LorfSetter({ lorf, setLorf }) {
 				onClick={decreaseDigit("d1")}
 				disabled={isDecBtnDisabled("d1")}
 			>
-				<FaChevronDown />
+				<FaChevronDown size={18} />
 			</button>
 
 			<button
@@ -66,7 +66,7 @@ function LorfSetter({ lorf, setLorf }) {
 				disabled={isDecBtnDisabled("d2")}
 			>
 				{" "}
-				<FaChevronDown />
+				<FaChevronDown size={18} />
 			</button>
 		</div>
 	);
